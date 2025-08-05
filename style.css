@@ -12,14 +12,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-.h1 :hover{
-    background-color:black;
-    color:white;
-    transition-property:all;
-    transition-duration:1s;
-    transition-timing-function:ease-in-out;
-    transition-delay:2ms;
-}
 h1{
     margin-top: 40px;
     display:inline-flex;
@@ -27,7 +19,11 @@ h1{
     color:black;
     background-color:wheat;
     border-radius: 15px;
-    
+    transition: all 1s ease-in-out 0.2ms;
+}
+h1:hover{
+        background-color:black;
+        color:white;
 }
 @media(min-width:600px)
 {
@@ -172,5 +168,6 @@ h1{
     border-radius: 50%;
     background-color: black;
 }
+
 
 
