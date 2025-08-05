@@ -76,7 +76,7 @@ h1{
     transform: translate(-50%, -50%);
     box-shadow: 10px 10px 30px rgb(0, 0, 0, 0.2) inset;
     border-radius: 50%;
-    background-image: url(./numberclock2.png);
+    background-image: url('numberclock2.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -172,4 +172,5 @@ h1{
     border-radius: 50%;
     background-color: black;
 }
+
 
